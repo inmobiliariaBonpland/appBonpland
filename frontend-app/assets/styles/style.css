@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    height: 100vh;    
+    flex-direction: column;
+    animation-name: fondo;
+    transition: all .5s !important;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-image: url(/assets/fotohome1.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-delay: 2s;
+}
+
+/*SECCION ANIMACION SLIDER*/
+
+@keyframes fondo{
+    50%{
+        background-image: url("/assets/fotohome2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+
+    100%{
+        background-image: url("/assets/fotohome3.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+.hero .content-home{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero .content-home .welcome-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.hero .content-home .search-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;  
+    
+}
+
+.hero .content-home .search-navigation .searching{
+    
+}
+
+.hero .content-home .selection-home{
+    display: flex;
+}
+
+.hero .content-home .search-navigation .searching .advanced-searching{
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.hero .content-home .search-navigation .selection-home{
+    display: flex;
+    gap: 8px;
+    
+}
+
+.hero .content-home .search-navigation .selection-home #seleccion{
+    border: none;
+    padding: 20px 140px 20px 140px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.hero .content-home .search-navigation .selection-home #seleccionTwo{
+    border: none;
+    padding: 20px 140px 20px 140px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
