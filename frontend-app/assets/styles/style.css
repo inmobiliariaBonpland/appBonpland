@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+}
+
+.logo-container {
+    padding-right: 20px;
+    padding-left: 85px;
+}
+
+.logo {
+    width: 110px;
+    height: 80px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 95px;
+}
+
+.nav-list li {
+    margin-right: 26px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+@font-face {
+    font-family: 'font-nav';
+    src: url(../fonts/AlegreyaSans-Medium.ttf);
+}
+.nav-list a {
+    font-family: 'font-nav';
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+    padding: 7px;
+    border: 1px solid transparent;
+}
+
+.nav-list a:hover {
+    background-color: #4759FF;
+    border-radius: 20px;
+    color: white;
+}
