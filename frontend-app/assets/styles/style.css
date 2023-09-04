@@ -111,3 +111,25 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+.hero .content-home .seccionBotonesAzules{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content-home .seccionBotonesAzules a{
+    padding: 30px 50px 30px 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: #4759ff;
+}
+
+.hero .content-home .seccionBotonesAzules .lupa{
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    color: #4759ff;
+    background-color: white;
+    font-size: 45px;
+}
