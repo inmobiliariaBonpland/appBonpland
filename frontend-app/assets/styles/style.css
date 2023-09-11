@@ -71,7 +71,7 @@
     transition: all .5s !important;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    background-image: url(/assets/fotohome1.jpeg);
+    background-image: url("../img/fotohome1.jpeg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
 
 @keyframes fondo{
     50%{
-        background-image: url("/assets/fotohome2.jpg");
+        background-image: url("../img/fotohome2.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -94,7 +94,7 @@
     
 
     100%{
-        background-image: url("/assets/fotohome3.jpg");
+        background-image: url("../img/fotohome3.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
