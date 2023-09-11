@@ -11,12 +11,16 @@
 </head>
 <body>
     <nav class="navbar">
+        <!-- Contenedor del Icono del Menú Hamburguesa -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            ☰ <!-- Agrega aquí el símbolo del menú hamburguesa -->
+        </div>
         <!-- Contenedor de la Imagen (Logo) -->
         <div class="logo-container">
-            <img src="../frontend-app/assets/img/Logo-Nav.png" alt="Logo" class="logo">
+           <a href=""><img src="/frontend-app/assets/img/Logo-Nav.png" alt="Logo" class="logo"></a> 
         </div>
         <!-- Lista  de los botones del Nav-->
-        <ul class="nav-list">
+        <ul class="nav-list" id="navList">
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Nosotros</a></li>
             <li><a href="#">Propiedades</a></li>

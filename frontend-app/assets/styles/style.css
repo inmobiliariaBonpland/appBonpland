@@ -201,7 +201,7 @@
 }
 
 /* Media Query para dispositivos móviles */
-@media (max-width: 870px) {
+@media (max-width: 1080px) {
     .navbar {
         width: 100%;
         flex-direction: row-reverse;
